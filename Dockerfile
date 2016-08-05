@@ -17,4 +17,4 @@ COPY murmur.ini /etc/murmur.ini
 EXPOSE 64738/tcp 64738/udp
 
 # Run murmur
-CMD ["/opt/murmur/murmur.x86", "-fg", "-v", "-ini", "/etc/murmur.ini"]
+CMD ["/opt/murmur/murmur.x86", "-fg", "-v", "-ini", "/home/murmur/murmur.ini"]
