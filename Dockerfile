@@ -1,7 +1,7 @@
 FROM busybox:latest
 MAINTAINER Fabien Culpo <fabien.culpo@gmail.com>
 
-ENV version=1.2.16
+ENV version=1.2.17
 
 RUN adduser -S murmur
 
